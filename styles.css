@@ -1,0 +1,41 @@
+.calculator {
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.display {
+    text-align: right;
+    padding-left: inherit;
+    padding-right: inherit;
+}
+
+.buttons {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn {
+    aspect-ratio: 1;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+#numbers {
+    font-size: 35px;
+    height: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#result {
+    font-size: 22px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    height: 30px;
+    color: #363636;
+}
+
+
